@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://indiacityblog.com/wp-content/uploads/2020/03/185289.jpg);
+    background-size: cover;
+}
+
+.balon {
+    position: relative;
+    max-width: 280px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #8cd5f583;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.balon:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+    border-top: solid 20px #8cd5f583;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: #a2e2ff83;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h3 {
+    line-height: 2px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.form-control {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 30%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #4CAF50;
+    color: #fff;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #97fa68;
+}

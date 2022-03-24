@@ -1,0 +1,102 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/39/96/AbDzjR.jpg);
+    background-size: cover;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #75b3ceb0;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #ffffff;
+    color: #00a2ff;
+}
+
+.main {
+    margin-right: 260px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+a.tambah {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background:green;
+}
+
+a.edit {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+}
+
+a.hapus {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: red;
+}
+
+.box {
+    height: 100%;
+    padding: 20px;
+    background: #00a2ff7e;
+    border-radius: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
